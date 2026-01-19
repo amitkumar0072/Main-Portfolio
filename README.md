@@ -1,10 +1,10 @@
-<p align=>
+<p >
   <img src="screenshots/home.png"  />
   <img src="screenshots/projects.png"/>
 </p>
 <p >
-  <img src="screenshots/about me.png" width="500" />
-  <img src="screenshots/skills.png" width="500" />
+  <img src="screenshots/about me.png" />
+  <img src="screenshots/skills.png" />
 </p>
 
 
