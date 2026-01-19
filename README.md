@@ -3,8 +3,8 @@
   <img src="screenshots/projects.png"/>
 </p>
 <p align="center">
-  <img src="screenshots/about me.png" width="400" />
-  <img src="screenshots/skills.png" width="400" />
+  <img src="screenshots/about me.png" width="600" />
+  <img src="screenshots/skills.png" width="600" />
 </p>
 
 
