@@ -12,7 +12,7 @@ function App() {
   const sections = ["home", "about", "projects", "code", "skills", "contact"];
   const sectionRefs = useRef([]);
   const [autoScroll, setAutoScroll] = useState(true);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [, setCurrentIndex] = useState(0);
   const [showNavbar, setShowNavbar] = useState(false);
 
   // Auto-scroll logic
@@ -30,7 +30,7 @@ function App() {
     }, 4000); // 3 seconds
 
     return () => clearInterval(interval);
-  }, [autoScroll]);
+  }, [autoScroll,sections.length]);
 
   // Handle navbar click (stop auto scroll)
   const handleNavClick = (id) => {
