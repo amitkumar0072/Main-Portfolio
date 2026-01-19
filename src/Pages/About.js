@@ -74,7 +74,7 @@ export default function About() {
   transition={{ duration: 0.7, delay: 0.2 }}
   viewport={{ once: true }}
 >
-  I’m <span>Amit Kumar</span>, a dedicated <strong>Full Stack Developer</strong> with expertise in
+  I’m <span>Amit Kumar</span>, a dedicated <strong>Full Stack Developer</strong> and B.Tech graduate from <span> IIT Roorkee </span>, with expertise in
   <span> MERN stack</span> and a strong foundation in <span>C++ & Data Structures</span>.  
   I enjoy building <em>dynamic web applications</em> that solve real-world problems while
   providing <em>smooth, interactive experiences</em> for users.  

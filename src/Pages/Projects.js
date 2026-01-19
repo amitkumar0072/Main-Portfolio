@@ -8,42 +8,42 @@ const projects = [
     title: "Portfolio Website",
     description: "A modern personal portfolio with animations, responsive UI, and smooth navigation.",
     tech: ["React", "Framer Motion", "CSS"],
-    live: "https://prasad-portfolio-theta.vercel.app/",
-    github: "https://github.com/metkarprasad/prasad-portfolio",
+    /*live: "",*/
+    github: "https://github.com/amitkumar0072/Main-Portfolio",
     image: "/projects/portfolio.png",
   },
   {
-    title: "Jobify",
-    description: "Full-stack Job Listing platform for job seekers to find opportunities and employers to manage postings efficiently.",
+    title: "Stocklen AI",
+    description: "StockLens AI is a MERN-based AI stock analysis platform that lets users chat with an intelligent assistant to gain real-time market insights.",
 
-    tech: ["MERN", "Stripe", "JWT", "CI/CD"],
-    live: "https://react-application-beige.vercel.app/",
-    github: "https://github.com/metkarprasad/react-application",
+    tech: ["MERN", "Socket.io", "JWT", "CI/CD"],
+    /*live: "",*/
+    github: "https://github.com/amitkumar0072/StocklensAI",
     image: "/projects/ecommerce.png",
   },
   {
-    title: "GrocerEase",
-    description: "Full-stack Grocery Management app allowing users to browse, order, and track groceries seamlessly, with real-time updates and intuitive UI.\.",
+    title: "Ravindra Bhawan(IITR)",
+    description: "Built a responsive React.js web platform for Ravindra Bhawan, IIT Roorkee, showcasing hostel information, notices, amenities, and contact details.",
     tech: ["Node.js", "OpenAI", "Socket.io"],
-    live: "https://gurukrupa-kirana-frontend.vercel.app/",
-    github: "https://github.com/metkarprasad/Gurukrupa-kirana-frontend",
+    /*live: "",*/
+    github: "https://github.com/amitkumar0072/RavindraBhawan",
     image: "/projects/ai.png",
   }, 
   {
-    title: "EcoCare",
-    description: "EcoCare app identifies uploaded leaves and provides detailed information, helping users learn about plants quickly and accurately.",
-    tech: ["Node.js", "OpenAI", "Socket.io"],
-    live: "https://ecocare-frontend.vercel.app/",
-    github: "https://github.com/metkarprasad/Ecocare-frontend",
+    title: "Blogify",
+    description: "Full-stack blog platform using React and Node.js that allows users to securely create, read, update, and delete blog posts.",
+    tech: ["Node.js", "React.js", "MongoDB"],
+    /*live: "",*/
+    github: "https://github.com/amitkumar0072/BlogsApp",
     image: "/projects/ai.png",
   }, 
 
   {
-    title: "AI Chatbot",
+    title: "Seekho.ai",
     description: "Coming Soon...",
-    tech: ["Node.js", "OpenAI", "Socket.io"],
-    live: "https://your-ai-link.com",
-    github: "https://github.com/yourrepo",
+    tech: ["Node.js", "OpenAI", "Socket.io","TypeScript"],
+    /*live: "",*/
+    github: "https://github.com/amitkumar0072/Seekho.ai",
     image: "/projects/ai.png",
   },
   
@@ -116,9 +116,9 @@ function TiltCard({ project, delay }) {
           ))}
         </div>
         <div className="project-links">
-          <a href={project.live} target="_blank" rel="noreferrer">
+          {/*<a href={project.live} target="_blank" rel="noreferrer">
             Live <FaExternalLinkAlt />
-          </a>
+          </a> */}
           <a href={project.github} target="_blank" rel="noreferrer">
             Code <FaGithub />
           </a>

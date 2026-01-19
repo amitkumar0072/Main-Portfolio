@@ -6,11 +6,11 @@ import { SiLeetcode, SiCodechef } from "react-icons/si";
 import "../Assets/CodingProfile.css";
 
 const profiles = [
-  { name: "GitHub", url: "https://github.com/metkarprasad", logo: <FaGithub />, desc: "45+ Open Source Repos", highlight: "Top Open Source Dev", score: "92%" },
-  { name: "LeetCode", url: "https://leetcode.com/u/prasadmetkar/", logo: <SiLeetcode />, desc: "Solved 600+ Problems", highlight: "Data Structures & Algo", score: "78%" },
-  { name: "HackerRank", url: "https://www.hackerrank.com/profile/prasadmetkar333", logo: <FaHackerrank />, desc: "12 Badges | Rank: 3k", highlight: "SQL + Python Specialist", score: "84%" },
-  { name: "CodeChef", url: "https://www.codechef.com/users/prasadmetkar", logo: <SiCodechef />, desc: "Rating 1500+", highlight: "Competitive Programmer", score: "66%" },
-  { name: "LinkedIn", url: "https://www.linkedin.com/in/prasad-metkar/", logo: <FaLinkedin />, desc: "Professional Networking", highlight: "Sharing Tech Blogs", score: "88%" },
+  { name: "GitHub", url: "https://github.com/amitkumar0072", logo: <FaGithub />, desc: "16+ Open Source Repos", highlight: "Top Open Source Dev", score: "82%" },
+  { name: "LeetCode", url: "https://leetcode.com/u/Thenua/", logo: <SiLeetcode />, desc: "Solved 400+ Problems", highlight: "Data Structures & Algo", score: "78%" },
+  { name: "HackerRank", url: "https://www.interviewbit.com/profile/amit-thenau/", logo: <FaHackerrank />, desc: "12 Badges | Rank: 3k", highlight: "SQL + Python Specialist", score: "84%" },
+  { name: "CodeChef", url: "https://www.interviewbit.com/profile/amit-thenau/", logo: <SiCodechef />, desc: "Rating 1500+", highlight: "Competitive Programmer", score: "66%" },
+  { name: "LinkedIn", url: "https://www.linkedin.com/in/amit-kumar-92111b241/", logo: <FaLinkedin />, desc: "Professional Networking", highlight: "Sharing Tech Blogs", score: "88%" },
 ];
 
 export default function CodingProfiles() {

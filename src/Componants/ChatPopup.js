@@ -21,11 +21,11 @@ const ChatPopup = () => {
 
   // Social media links
   const socialLinks = [
-    { icon: <FaWhatsapp />, url: "https://wa.me/919307173845", name: "WhatsApp" },
-    { icon: <FaLinkedin />, url: "https://www.linkedin.com/in/prasad-metkar/", name: "LinkedIn" },
-    { icon: <FaGithub />, url: "https://github.com/metkarprasad", name: "GitHub" },
-    { icon: <FaInstagram />, url: "https://www.instagram.com/metkar.prasad/", name: "Instagram" },
-    { icon: <FaTwitter />, url: "hhttps://x.com/PrasadMetkar5", name: "Twitter" },
+    { icon: <FaWhatsapp />, url: "https://wa.me/919119063442", name: "WhatsApp" },
+    { icon: <FaLinkedin />, url: "https://www.linkedin.com/in/amit-kumar-92111b241/", name: "LinkedIn" },
+    { icon: <FaGithub />, url: "https://github.com/amitkumar0072", name: "GitHub" },
+    { icon: <FaInstagram />, url: "https://www.instagram.com/amit_thenua11/", name: "Instagram" },
+    { icon: <FaTwitter />, url: "https://x.com/", name: "Twitter" },
   ];
 
   return (

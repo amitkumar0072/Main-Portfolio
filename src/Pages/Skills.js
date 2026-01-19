@@ -19,9 +19,9 @@ import { SiMongodb, SiTailwindcss, SiTypescript, SiNextdotjs, SiLeetcode,  SiTen
 import "../Assets/Skills.css";
 
 const skills = [
-  { name: "React", icon: <FaReact />, level: 90, color: "#61dafb", exp: "3+ Years", type: "Advanced" },
-  { name: "Next.js", icon: <SiNextdotjs />, level: 85, color: "#fff", exp: "2+ Years", type: "Advanced" },
-  { name: "Node.js", icon: <FaNodeJs />, level: 80, color: "#3C873A", exp: "3 Years", type: "Advanced" },
+  { name: "React", icon: <FaReact />, level: 90, color: "#61dafb", exp: "2+ Years", type: "Advanced" },
+  { name: "Next.js", icon: <SiNextdotjs />, level: 85, color: "#fff", exp: "1+ Years", type: "Advanced" },
+  { name: "Node.js", icon: <FaNodeJs />, level: 80, color: "#3C873A", exp: "2+ Years", type: "Advanced" },
   { name: "MongoDB", icon: <SiMongodb />, level: 80, color: "#4DB33D", exp: "2 Years", type: "Intermediate" },
   { name: "TypeScript", icon: <SiTypescript />, level: 75, color: "#3178c6", exp: "2 Years", type: "Intermediate" },
   { name: "JavaScript", icon: <FaJsSquare />, level: 90, color: "#f7df1e", exp: "4+ Years", type: "Expert" },
@@ -35,7 +35,7 @@ const skills = [
   { name: "Data Structures & Algorithms", icon: <SiLeetcode />, level: 90, color: "#FFA116", exp: "3+ Years", type: "Advanced" },
   { name: "Problem Solving (LeetCode/HackerRank)", icon: <FaHackerrank />, level: 85, color: "#2EC866", exp: "3+ Years", type: "Advanced" },
   { name: "REST APIs / Microservices", icon: <FaServer />, level: 80, color: "#FF6F61", exp: "2 Years", type: "Advanced" },
-  { name: "Python", icon: <FaPython />, level: 85, color: "#306998", exp: "3+ Years", type: "Advanced" },
+  { name: "Python", icon: <FaPython />, level: 85, color: "#306998", exp: "1 Years", type: "Advanced" },
   { name: "Machine Learning / AI", icon: <SiTensorflow />, level: 70, color: "#FF6F00", exp: "1 Year", type: "Intermediate" },
   { name: "CI/CD / DevOps", icon: <FaCogs />, level: 65, color: "#FF4500", exp: "1 Year", type: "Intermediate" },
 ];
