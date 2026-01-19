@@ -1,9 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "../Assets/About.css";
-import pic1 from "../Assets/pic1.jpeg";
 import pic2 from "../Assets/pic2.jpeg";
-import pic3 from "../Assets/pic3.jpeg";
+
 
 export default function About() {
   // Floating animation for text
