@@ -2,7 +2,7 @@
   <img src="screenshots/home.png"  />
   <img src="screenshots/projects.png"/>
 </p>
-<p align="center">
+<p >
   <img src="screenshots/about me.png" width="600" />
   <img src="screenshots/skills.png" width="600" />
 </p>
